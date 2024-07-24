@@ -1,0 +1,21 @@
+logging:
+  level:
+    com:
+      dhiman:
+        spring:
+          function:
+            ai:
+              bot: DEBUG
+spring:
+  application:
+    name: aiBotFunction
+  ai:
+    vectorstore:
+      pinecone:
+        apiKey: ${PINECONE_API_KEY}
+        environment: ${PINECONE_ENV}
+        projectId: ${PINECONE_PROJECT_ID}
+        index-name: ${PINECONE_INDEX_NAME}
+app:
+  properties:
+    text-source: text-source.txt
