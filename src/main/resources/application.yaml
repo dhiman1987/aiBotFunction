@@ -16,6 +16,3 @@ spring:
         environment: ${PINECONE_ENV}
         projectId: ${PINECONE_PROJECT_ID}
         index-name: ${PINECONE_INDEX_NAME}
-app:
-  properties:
-    text-source: text-source.txt
